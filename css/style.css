@@ -1,0 +1,407 @@
+/*  green #52a833
+	gray #838282
+ */ 
+
+
+
+.navbar-header img{
+	width: 100px;
+}
+
+
+.navbar-default{
+
+	background-color: transparent;
+	border-color:0;
+	    border-color: transparent;
+
+}
+.active {
+	color: #ffffff !important;
+	background-color: #52a833;
+}
+
+.active:hover {
+		color: #ffffff !important;
+	background-color: #52a833 !important;
+}
+.navbar-default .navbar-nav>li>a{
+	transition: 0.2s;
+	color: #838282;
+	border-radius: 4px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+
+background-color: #838282;
+color: #ffffff;
+
+transition: 0.2s;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+
+float: left;
+}
+
+.navbar-right{
+	float: right;
+}
+
+.navbar-right ul{
+	list-style: none;
+
+
+}
+.navbar-right ul li{
+
+display: inline-block;
+
+padding: 15px;}
+
+
+.navbar-right ul li a{
+text-decoration: none;
+
+color: #838282;
+transition: 0.2s;
+
+}
+
+
+.navbar-right ul li a i{
+
+	font-size: 20px;
+	height: 20px;
+	width: 20px;
+}
+
+
+.navbar-right ul li a:hover{
+	color: #52a833;
+	transition: 0.2s;
+}
+
+
+
+.navbar-right ul li a:focus{
+		color: #52a833;
+}
+
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	
+
+
+
+.nav-item:hover a{
+	background-color: #838282;
+	color: #ffffff;
+	transition: 0.2s;
+}
+
+
+.nav-item:hover  .nav-link{
+	background-color: #838282;
+	color: #ffffff;
+		transition: 0.2s;
+
+}
+
+.navbar .nav-item:hover .dropdown-menu{
+	text-align: initial;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: #ffffff;
+}
+
+nav a{
+	font-size: 16px;
+}
+
+.profile:hover{
+	background-color: transparent !important;
+	transition: 0.2s;
+
+
+}
+
+.profile:hover a{
+
+		background-color: transparent !important;
+		color: #838282;
+
+}
+
+.profile ul li{
+	padding: 10px 5px ;
+
+}
+
+.header h2{
+
+
+
+	font-size: 40px;
+font-family: fantasy;
+	color: #838282;
+	margin-bottom: 25px;
+}
+
+.header h2 span{
+	color: #52a833;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	align-items: center;
+}
+.header{
+	padding: 50px 25px;
+    height: 100%;
+    align-items: center;
+    margin: 100px auto;
+    line-height: 5;
+
+}
+
+.header a{
+	font-size: 15px;
+	text-decoration: none;
+	color: #ffffff;
+
+	padding: 15px 25px;
+	background-color:  #52a833;
+	border-radius: 4px;
+}
+
+.header a:hover{
+	opacity: 0.8;
+}
+
+.header p{margin-bottom: 25px;}
+
+.top-coin{
+
+	margin: 100px 0px; 
+}
+.top-coin .col-md-3{
+	margin: 25px 0;
+}
+.top-coin h6{
+
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+.top-coin h5{
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.top-coin p{
+
+	font-size: 14px;
+}
+
+.top-coin{
+	text-align: initial;
+}
+
+.most-coin a{
+	text-decoration: none;
+	color: #838282;
+
+	font-weight: 600;
+	opacity: 0.7;
+	font-size: 16px;
+
+}
+
+.most-coin {
+margin: 50px 0;
+    text-align: initial;
+}
+.most-coin i{
+
+	font-size: 30px;
+	color: #52a833;
+	margin-left: 25%;
+}
+
+.mm_icon{
+	width: 100%;
+}
+
+
+.market_trend{
+
+margin: 200px 0;
+}
+
+.market_trend h3{
+
+	font-size: 25px;
+	font-weight: 600;
+	opacity: 0.8;
+}
+
+.market_trend table{
+	width: 100%;
+	margin: 25px 0;
+
+}
+
+.market_trend img{
+
+	width: 25px;
+	margin-right: 10px;
+}
+
+.market img{
+	height: 30px;
+	width: 100%;
+}
+
+.market_trend td{
+
+	width: 25%;
+	padding: 15px 0;
+	text-align: initial;
+}
+.market_trend th{
+	text-align: initial;
+	padding: 15px 0;
+}
+
+.trade h3{
+	font-size: 25px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.img-trad {
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.dawnload a{
+	border-radius: 4px;
+	border-radius: 4px;
+    margin: 5px 0;
+    min-width: 130px;
+}
+.img-trad img{
+	width: 100%;
+}
+
+.buy_colr{
+	color: #52a833;
+}
+
+.sell_colr{
+	color: #cf304a;
+}
+
+
+
+.most-coin:hover i{
+opacity: 0.6;
+transition: 0.2s;}
+
+
+.start{
+	background-color: #8382823b;
+	padding: 25px 0;
+	text-align: center;
+
+}
+.start h2{
+	color: #000000;
+	margin: 15px 0 50px ;
+}
+
+.start a{
+	color: #ffffff;
+	font-size: 16px;
+	padding: 10px 20px;
+	background-color: #52a833;
+	border-radius: 4px;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+.start a:hover{
+	opacity: 0.8;
+	transition: 0.2s;
+}
+
+.foot img{
+	width: 100px;
+}
+
+
+.foot{
+	padding: 50px 0;
+}
+
+.foot h2{
+	font-size: 15px;
+	font-weight: 800;
+	color: #838282;
+}
+
+.foot h3{
+	font-size: 14px;
+	font-weight: 600;
+	color: #838282;
+	margin: 10px 0;
+}
+
+.foot ul{
+	padding: 0;
+	list-style: none;
+}
+.foot ul li a{
+	text-decoration: none;
+	color: #838282;
+	font-size: 16px;
+	transition: 0.2s;
+
+}
+
+.foot ul li a:hover{
+	color: #000;
+	transition: 0.2s;
+}
+.foot h6{
+
+	font-size: 18px;
+	color: #000;
+	font-weight: 600;
+	opacity: 0.8;
+}
+
+.foot ul li{
+margin: 15px 2px;
+}
+
+.social ul li{
+	display: inline-block;
+	margin: 2px 5px;
+}
+
+.social ul li a :hover{
+	color: #52a833;
+	transition: 0.2s;
+}
+
+
+
+
